@@ -4,7 +4,6 @@
 #include <QString>
 #include <QDate>
 #include <QMessageBox>
-
 signwind::signwind(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::signwind)
