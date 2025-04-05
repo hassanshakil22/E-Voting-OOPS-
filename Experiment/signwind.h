@@ -6,6 +6,7 @@
 namespace Ui {
 class signwind;
 }
+class MainWindow;
 
 class signwind : public QDialog
 {
@@ -20,6 +21,7 @@ private slots:
 
 private:
     Ui::signwind *ui;
+    MainWindow *againlog;
 };
 
 #endif // SIGNWIND_H
